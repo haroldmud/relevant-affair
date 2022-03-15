@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: ghostwhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.171);
+  width: 60px;
+  height: 100vh;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0px 0px 20px #d4d4d4;
+  transition: 1s ease;
+}
+
+.am {
+  padding-right: 30px;
+}
+
+.main-menu:hover {
+  overflow-y: scroll;
+  width: 210px;
+  background-color: #d4d4d4;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 5px;
+}
+.menu-item {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  list-style: none;
+}
+li {
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.menu-item:hover {
+  background-color: gray;
+  padding: 20px;
+  /* padding-top: 15px; */
+}
+
+.slide {
+  position: absolute;
+  color: black;
+  left: 15px;
+  padding-right: 50px;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 8rem;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.home {
+  position: absolute;
+  text-decoration: none;
+  color: rgb(200, 202, 192);
+  font-weight: bold;
+  right: 100px;
+  margin-top: 30px;
+}
+.home:hover {
+  border-bottom: rgb(253, 251, 251) solid 2px;
+}
+
+.titles {
+  overflow: hidden;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.align {
+  position: absolute;
+  right: 200px;
+  margin-top: 80px;
+  font-weight: bolder;
+  font-size: 70px;
+}
+b {
+  border-bottom: solid 10px white;
+}
+
+.wrapper {
+  height: 100vh;
+  background-image: url(./display/forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wtsp {
+  background-color: transparent;
+  background-size: 100px;
+  margin-left: 80px;
+}
+.sup {
+  background-color: greenyellow;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.fb {
+  background-color: transparent;
+  background-size: 100px;
+  margin-left: 80px;
+}
+.face {
+  background-color: greenyellow;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.twtr {
+  background-color: transparent;
+  background-size: 100px;
+  margin-left: 80px;
+}
+.twit {
+  background-color: greenyellow;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+/* .email {
+  background-color: transparent;
+  background-size: 100px;
+  margin-left: 80px;
+} */
+
+.contact {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  padding-top: 27rem;
+  padding-left: 20%;
+}
+
+.model {
+  background-color: black;
+  height: 700px;
+}
+
+.topmodel {
+  margin-top: 30px;
+  position: absolute;
+  right: 50px;
+  height: 650px;
+  background-size: cover;
+}
+
+.hey {
+  position: absolute;
+  margin-top: 27rem;
+  margin-right: 21rem;
+  font-size: 50px;
+  right: 40px;
+}
+.user {
+  color: black;
+  position: absolute;
+  background-color: greenyellow;
+  padding: 5px;
+  font-weight: bold;
+  margin-top: 40rem;
+  margin-right: 21rem;
+  right: 80px;
+}
+
+.case {
+  color: black;
+  text-align: center;
+}
+
+.case img {
+  height: 400px;
+}
+
+.formers {
+  background-color: black;
+  height: 100vh;
+  padding-left: 10px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.squad {
+  position: absolute;
+  background: transparent;
+}
+.Squad img {
+  /* height: 300px; */
+  width: 150px;
+  padding-top: 60px;
+  padding-left: 150px;
+}
+.b {
+  position: absolute;
+  right: 10rem;
+  margin-top: 18rem;
+  font-size: 50px;
+  color: greenyellow;
+  border-bottom: greenyellow solid 10px;
+}
+
+.price {
+  position: absolute;
+  color: black;
+}
+
+h1 {
+  /* position: absolute; */
+  border-bottom: black solid 5px;
+  padding: 2px;
+  font-size: 50px;
+  text-align: right;
+  margin-left: 50rem;
+}
+
+.intro {
+  position: absolute;
+  font-size: 20px;
+  text-align: right;
+  margin-left: 45rem;
+  margin-top: -15px;
+}
+
+.table {
+  height: 300px;
+  width: 1000px;
+  margin-top: 10rem;
+  text-align: center;
+  transform: translateX(25%);
+}
+
+thead {
+  background-color: chartreuse;
+  border-collapse: collapse;
+}
+
+.footer1 {
+  position: absolute;
+  font-size: small;
+  padding-left: 43.5%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.footer2 {
+  position: absolute;
+  font-size: small;
+  padding-left: 47%;
+  padding-top: 70px;
+}
+
+.textBox {
+  padding-left: 28px;
+}
